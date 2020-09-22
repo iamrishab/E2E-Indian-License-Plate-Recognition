@@ -1,0 +1,4 @@
+*.zip
+gt/
+results/
+weights/

@@ -1,0 +1,38 @@
+tps:
+    workers: 8
+    batch_size: 16
+    batch_max_length: 16
+    imgH: 24
+    imgW: 94
+    rgb: True
+    character: '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    PAD: True
+    num_fiducial: 20
+    input_channel: 3
+    saved_model: ''
+    
+lpr:
+    max_epoch: 250000
+    img_size: !!python/tuple [94, 24]
+    train_img_dirs: "/home/rishab/licenseplaterecognition/LPRNet/dataset/combined"
+    test_img_dirs: "/home/rishab/licenseplaterecognition/LPRNet/dataset/combined"
+    optimizer: 'rmsprop'
+    dropout_rate: 0.25
+    learning_rate: 0.01
+    momentum: 0.9
+    weight_decay: 0.00002
+    lr_schedule: [4, 8, 12, 14, 16]
+    lpr_max_len: 18
+    train_batch_size: 16
+    test_batch_size: 4
+    phase_train: True
+    num_workers: 8
+    cuda: True
+    resume_epoch: 0
+    save_interval: 50
+    test_interval: 50
+    save_folder: './weights/'
+    pretrained_model: './weights/LPRNet_acc_0.875_iteration_26249.pth'
+    
+internal:
+    pretrained_model: ''

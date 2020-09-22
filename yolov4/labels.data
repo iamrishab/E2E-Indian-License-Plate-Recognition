@@ -1,0 +1,5 @@
+classes = 1 
+train = /home/rishab/licenseplaterecognition/yolov3/train.txt
+valid = /home/rishab/licenseplaterecognition/yolov4/val.txt
+names = /home/rishab/licenseplaterecognition/yolov4/labels.names
+backup = /home/rishab/licenseplaterecognition/yolov4/weights

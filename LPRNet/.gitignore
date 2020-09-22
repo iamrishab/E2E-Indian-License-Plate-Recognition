@@ -1,0 +1,5 @@
+dataset/
+nohup.out
+runs/
+weights/
+weight_init/
