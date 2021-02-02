@@ -7,9 +7,6 @@ Currently this code includes:
 
 $ pip3 install -r requirements.txt
 
-## Download Resource
-Download and place the content from the [link](https://drive.google.com/drive/folders/1gdJDciujoEcVbUSb640rzBuPDy8UqNWr?usp=sharing) and place it inside `LPRv1/model` subfolder.
-
 ## To test via API
 $ python api.py
 
