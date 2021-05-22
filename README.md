@@ -2,6 +2,8 @@
 
 ## Overview
 Currently this code includes:
+* Car Number Plate detection and recognition (also multiline)
+* Bike Number Plate detection and recognition (also multiline)
 
 ## Run the code in virtual environment (Recommended)
 
