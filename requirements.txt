@@ -18,7 +18,7 @@ Werkzeug==0.16.0
 zipp==0.6.0
 requests==2.22.0
 pyopenssl==19.0.0
-opencv-python==4.1.2.30
+opencv-python==4.2.0.32
 tensorflow-gpu==1.14.0
 fuzzywuzzy==0.18.0
 python-Levenshtein==0.12.0
