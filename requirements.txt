@@ -10,7 +10,7 @@ Jinja2==2.10.3
 jsonschema==3.2.0
 MarkupSafe==1.1.1
 more-itertools==8.0.0
-numpy==1.17.4
+numpy==1.22.0
 pyrsistent==0.15.6
 pytz==2019.3
 six==1.13.0
